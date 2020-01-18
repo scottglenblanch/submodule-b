@@ -1,4 +1,6 @@
-const sayGoodbye = 'goodbye!'
+const sayGoodbye = () => {
+  console.log('goodbye!')
+}
 
 module.exports = {
   sayGoodbye
